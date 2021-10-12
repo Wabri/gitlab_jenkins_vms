@@ -3,7 +3,6 @@ Vagrant.configure("2") do |config|
   config.vm.box = "generic/centos8"
 
   config.ssh.forward_agent = true
-  config.vm.provision :shell, path: "provisioning/passauthyes.sh"
 
   config.vm.define "gitlab_server" do |glserver|
     glserver.vm.network :private_network, ip: "192.168.59.103"
