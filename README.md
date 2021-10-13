@@ -1,6 +1,6 @@
 #  Gitlab + Jenkins on Virtual Machine 
 
-**WARNING: This 2 vms takes 5GB of memory, make sure you can handle it before run the vagrant up**
+**WARNING: This 2 vms takes 5GB of memory (gitlab has a 4GB minimum requirements, jenkins has 1GB minimum requirements), make sure you can handle it before run the vagrant up**
 
 ## Development
 
